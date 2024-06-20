@@ -23,6 +23,6 @@
     },
 	"dockerComposeFile": ["docker-compose.yml"],
 	"workspaceFolder": "/app",
-	"postStartCommand": "python3 /app/install_plugin_dependencies.py",
+	"postStartCommand": "python3 /app/core/install_plugin_dependencies.py",
 	"service": "dev-cheshire-cat-core"	
 }

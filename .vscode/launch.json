@@ -20,6 +20,13 @@
                 }
             ],
             "justMyCode": true
+        },
+        {
+            "name": "Python Debugger: Module",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "cat.main",
+            "justMyCode": false
         }
     ]
 }

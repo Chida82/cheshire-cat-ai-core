@@ -21,7 +21,7 @@ services:
       - ${CORE_PORT:-1865}:80
       - ${DEBUG_PORT:-5678}:5678
     volumes:
-      - ../../core:/app
+      - ../../:/app
     command:
       - sleep
       - infinity
